@@ -7,7 +7,6 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #ffffff;
-  
 }
 
 /* Common Class / Typography */
@@ -33,6 +32,13 @@ body {
   font-size: 36px;
   font-weight: 500;
   color: white;
+}
+#last-category {
+  padding-right: 120px;
+}
+#last-category img {
+  max-width: 135px;
+  height: auto;
 }
 .card-btn {
   padding: 14px 20px;
@@ -118,6 +124,7 @@ body {
   gap: 20px;
   justify-content: space-between;
 }
+
 /* Shoes Categories */
 #shos {
   margin-bottom: 98px;
@@ -205,6 +212,9 @@ p {
   color: #000000;
 }
 /* subscribe */
+#newslater {
+  margin-bottom: 50px;
+}
 
 .newslater-content {
   padding: 146px;
