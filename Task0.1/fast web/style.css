@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  
+}
+
+/* Common Class / Typography */
+.container {
+  width: 78%;
+  margin: 0 auto;
+}
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.category-card {
+  width: 359px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.category-card h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+}
+.card-btn {
+  padding: 14px 20px;
+  background-color: #000000;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  margin-top: 16px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+.card-btn:hover {
+  background: linear-gradient(to top, #ff136f, #ff589b);
+}
+
+/* Common class END */
+#nave-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  margin-bottom: 60px;
+}
+#nave-bar.logo {
+  width: 100%;
+  max-width: 140px;
+}
+#nave-bar.menu {
+  width: 100%;
+  max-width: 48px;
+}
+
+/* Hero Section */
+#hero {
+  margin-bottom: 50px;
+}
+#hero-section {
+  background-color: #feeae9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 20px;
+}
+.hero-content * {
+  margin-bottom: 10px;
+}
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+.hero-content p {
+  line-height: 26px;
+  color: #4e4e4e;
+}
+
+.hero-content h2 {
+  font-size: 41px;
+  font-weight: 500;
+  color: #ff136f;
+}
+.hero-content .btn {
+  padding: 14px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(to top, #ff136f, #ff589b);
+  color: white;
+  cursor: pointer;
+}
+.hero-img img {
+  width: 100%;
+  max-width: 402px;
+}
+
+/* Categories */
+#category {
+  margin-bottom: 98px;
+}
+#category-box {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+/* Shoes Categories */
+#shos {
+  margin-bottom: 98px;
+}
+#shoes-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sho-card img {
+  margin-bottom: 22px;
+}
+#sho-card h2,
+p {
+  margin-bottom: 16px;
+}
+#sho-card {
+  width: 360px;
+  border: 2px solid #929292;
+  border-radius: 20px;
+  padding: 24px;
+  text-align: center;
+}
+#sho-card img {
+  max-width: 100%;
+  height: auto;
+}
+#sho-card h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+#sho-card p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #4e4e4e;
+}
+#sho-card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* Bagpack Category */
+#bag {
+  margin-bottom: 98px;
+}
+#bag-card img {
+  margin-bottom: 22px;
+}
+#bag-card h2,
+p {
+  margin-bottom: 16px;
+}
+#bag-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+#bag-card {
+  width: 360px;
+  border: 2px solid #929292;
+  border-radius: 20px;
+  padding: 24px;
+  text-align: center;
+}
+#bag-card img {
+  width: 100%;
+  max-width: 290px;
+}
+#bag-card h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+#bag-card p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #4e4e4e;
+}
+#bag-card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+/* subscribe */
+
+.newslater-content {
+  padding: 146px;
+  background-color: #fff2f1;
+  text-align: center;
+}
+.newslater-content h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+.newslater-content p {
+  color: #707070;
+  margin-bottom: 16px;
+}
+.newslater-content form {
+  margin-top: 20px;
+  display: flex;
+}
+
+.newslater-content form input[type='email'] {
+  width: 100%;
+  padding: 10px;
+}
+.newslater-content form input {
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.newslater-content form input[type='placeholder'] {
+  font-size: 18px;
+}
+.newslater-content form button {
+  padding: 14px 20px;
+  font-size: 18px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+  background: linear-gradient(to top, #ff136f, #ff589b);
+  color: white;
+  cursor: pointer;
+}
