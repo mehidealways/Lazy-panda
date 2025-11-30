@@ -44,7 +44,6 @@
   gap: 20px; /* Adds space between cards */
 }
 
-
 #sho-card {
   width: 45%; /* Make each card take up 45% of the container width */
   max-width: 360px; /* Ensure the card doesn't stretch too wide */
@@ -70,10 +69,9 @@
 /* Tablate Device 769 - 992 */
 
 @media (min-width: 769px) and (max-width: 992px) {
-
   /* HERO SECTION */
   #hero-section {
-    padding: 25px;          /* Slightly smaller padding */
+    padding: 25px; /* Slightly smaller padding */
     flex-direction: column-reverse; /* Stack content for better fit */
     text-align: center;
     gap: 25px;
@@ -102,24 +100,22 @@
     margin-bottom: 35px;
   }
 
-
   /* CATEGORY CARD */
-  
+
   .category-card {
-    width: 240px;        /* Smaller width for tablets */
-    padding: 12px;       /* Slightly reduced padding */
-    gap: 10px;           /* Reduce spacing */
+    width: 240px; /* Smaller width for tablets */
+    padding: 12px; /* Slightly reduced padding */
+    gap: 10px; /* Reduce spacing */
     overflow: hidden;
   }
 
   .category-card h3 {
-    font-size: 20px;     /* Adjust heading size */
+    font-size: 20px; /* Adjust heading size */
   }
-  #last-category img{
-  max-width:135px;
-  height: auto;
-}
-
+  #last-category img {
+    max-width: 135px;
+    height: auto;
+  }
 
   /* SHOES BOX SECTION */
   #shoes-box {
@@ -127,11 +123,10 @@
     justify-content: center;
     gap: 20px;
   }
-  
 
   #sho-card {
-    width: 46%;             /* Two cards per row */
-    max-width: 300px;       /* Tablet-friendly */
+    width: 46%; /* Two cards per row */
+    max-width: 300px; /* Tablet-friendly */
     padding: 16px;
   }
 
@@ -151,7 +146,7 @@
     margin-bottom: 16px;
   }
 
-   /* BAG SECTION */
+  /* BAG SECTION */
   #bag {
     margin-bottom: 70px; /* Reduce spacing for tablets */
   }
@@ -159,41 +154,38 @@
   #bag-box {
     display: flex;
     justify-content: center;
-    gap: 25px;              /* Balanced gap for tablet layout */
+    gap: 25px; /* Balanced gap for tablet layout */
   }
-   
 
   #bag-card {
-    width: 300px;           /* Slightly smaller card */
-    padding: 18px;          /* Adjust padding */
+    width: 300px; /* Slightly smaller card */
+    padding: 18px; /* Adjust padding */
     border-radius: 18px;
   }
 
   #bag-card img {
-    max-width: 240px;       /* Reduce image size */
+    max-width: 240px; /* Reduce image size */
     margin-bottom: 18px;
   }
 
   #bag-card h2 {
-    font-size: 22px;        /* Slightly smaller heading */
+    font-size: 22px; /* Slightly smaller heading */
     margin-bottom: 14px;
   }
 
   #bag-card p {
-    font-size: 15px;        /* Adjust paragraph size */
+    font-size: 15px; /* Adjust paragraph size */
     line-height: 24px;
     margin-bottom: 14px;
   }
 
   #bag-card h3 {
-    font-size: 22px;        /* Adjust price size */
+    font-size: 22px; /* Adjust price size */
   }
-
 }
 
 /* Mobile Device Potrait 390 - 568*/
 @media (min-width: 320px) and (max-width: 640px) {
-
   /* ---------------- HERO SECTION ---------------- */
   #hero-section {
     padding: 18px;
@@ -225,32 +217,34 @@
     margin-bottom: 25px;
   }
 
-
   /* ---------------- CATEGORY CARD ---------------- */
-  #category-box{
+  #category-box {
     flex-wrap: wrap;
   }
+  .heading {
+    font-size: 25px;
+    font-weight: 500;
+  }
   .category-card {
-    width: 100%;         /* Full width on mobile */
-    padding: 10px;       /* Smaller padding */
-    gap: 10px;           /* Less space between items */
-    border-radius: 8px;  /* Slightly smaller border radius */
+    width: 100%; /* Full width on mobile */
+    padding: 10px; /* Smaller padding */
+    gap: 10px; /* Less space between items */
+    border-radius: 8px; /* Slightly smaller border radius */
   }
 
   .category-card h3 {
-    font-size: 20px;     /* Reduce heading size */
+    font-size: 20px; /* Reduce heading size */
   }
   #last-category img {
     max-width: 110px;
   }
   #last-category {
-  padding: 15px;
-}
-
+    padding: 15px;
+  }
 
   /* ---------------- SHOES SECTION ---------------- */
   #shoes-box {
-    flex-direction: column;   /* 1 per row */
+    flex-direction: column; /* 1 per row */
     gap: 20px;
     align-items: center;
   }
@@ -278,7 +272,6 @@
   #sho-card h3 {
     font-size: 18px;
   }
-
 
   /* ---------------- BAG SECTION ---------------- */
   #bag {
@@ -318,13 +311,12 @@
     font-size: 20px;
   }
 
-  
   #newslater {
     margin-bottom: 35px;
   }
 
   .newslater-content {
-    padding: 40px 20px;   /* Reduce large padding for mobile */
+    padding: 40px 20px; /* Reduce large padding for mobile */
     text-align: center;
   }
 
@@ -339,23 +331,20 @@
 
   .newslater-content form {
     margin-top: 16px;
-    flex-direction: column;  /* Stack input + button on mobile */
+    flex-direction: column; /* Stack input + button on mobile */
     gap: 10px;
   }
 
-  .newslater-content form input[type="email"] {
+  .newslater-content form input[type='email'] {
     width: 100%;
     padding: 10px;
-    border-radius: 6px;  /* Full rounded for mobile */
+    border-radius: 6px; /* Full rounded for mobile */
   }
 
   .newslater-content form button {
-    width: 100%;        /* Full width button */
+    width: 100%; /* Full width button */
     padding: 12px 0;
     font-size: 16px;
     border-radius: 6px;
   }
-
-
 }
-
